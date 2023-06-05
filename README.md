@@ -8,7 +8,7 @@ This is a Android app that simulates physical movement. In short, the physics si
 ![image](https://github.com/MacbookWithoutBook/PhysicsSimulator/assets/74396454/cf197c6e-0f19-493f-b982-a71b6c329a20)
 
 ## Show Case
-### Create Account
+### Create Account ---------------------
 <img width="306" alt="CreateAccount" src="https://github.com/MacbookWithoutBook/PhysicsSimulator/assets/74396454/e262ebbc-6fd0-40d9-9feb-df83ec32294e">
 
 ### Login Screen
