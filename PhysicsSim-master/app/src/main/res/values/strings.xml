@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PhysicsSim</string>
+    <string name="move">MOVE</string>
+    <string name="stop_animation">STOP ANIMATION</string>
+    <string name="welcome_msg">Welcome to our physics simulation app!</string>
+    <string name="about_app">About Physics Sim?</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="eula"><p>By using this app, you agree to abide by the <a href="https://developers.google.com/maps/terms">Google Maps Terms of Service</a> and <a href="https://www.google.com/intl/en/policies/terms/">Google\'s Terms of Service</a>.</p><p><strong>Privacy Policy:</strong> Upon request, this app uses your location in order to show it via Google Maps. Internet access permission is necessary for this purpose. No other information is collected, stored, or transmitted.</p></string>
+    <string name="eula_accepted_key">eula_accepted</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="top"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="16dp"
+		android:layout_marginBottom="50dp"
+		android:text="New Account"
+		android:textStyle="bold"
+		android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+		/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="start"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:text="Username"
+		android:textStyle="bold"
+		android:textSize="25sp" />
+
+	<EditText
+		android:id="@+id/username"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginBottom="8dp"
+		android:hint="Enter Username"
+		android:inputType="text"
+		android:maxLines="1"
+		android:minHeight="48dp"
+		android:textColorHint="#A9A9A9"
+		android:autofillHints="username"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="start"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:text="Password"
+		android:textStyle="bold"
+		android:textSize="25sp" />
+
+	<EditText
+		android:id="@+id/password"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginBottom="8dp"
+		android:hint="Enter password"
+		android:inputType="textPassword"
+		android:maxLines="1"
+		android:minHeight="48dp"
+		android:textColorHint="#A9A9A9"
+		android:autofillHints="password"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="start"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:labelFor="@+id/password_confirm"
+		android:text="Confirm password"
+		android:textStyle="bold"
+		android:textSize="25dp"/>
+
+	<EditText
+		android:id="@+id/password_confirm"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:layout_marginRight="16dp"
+		android:layout_marginBottom="8dp"
+		android:hint="Confirm password"
+		android:inputType="textPassword"
+		android:maxLines="1"
+		android:minHeight="48dp"
+		android:textColorHint="#A9A9A9"
+		android:autofillHints="password"/>
+
+	<Button
+		android:id="@+id/cancel_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="60dp"
+		android:layout_marginTop="60dp"
+		android:layout_marginRight="60dp"
+		android:text="Clear" />
+
+	<Button
+		android:id="@+id/done_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="60dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginRight="60dp"
+		android:text="Create" />
+
+	<Button
+		android:id="@+id/exit_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="60dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginRight="60dp"
+		android:text="Back" />
+</LinearLayout>
